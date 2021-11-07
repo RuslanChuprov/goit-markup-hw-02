@@ -118,7 +118,6 @@
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
-  border-radius: 4px;
 }
 
 .hero {
@@ -212,9 +211,9 @@
   color: var(--address-color);
 }
 
-.address .second {
+/* .address .second { 
   color: var(--address-color);
-}
+}*/
 .footer {
   background-color: var(--background-hero);
 }
@@ -232,11 +231,7 @@
   line-height: 1.7;
 }
 
-.footer .mail:focus,
-.footer .phone:focus,
-.footer .city:focus,
-.footer .mail:hover,
-.footer .phone:hover,
-.footer .city:hover {
-  color: var(--accent-color);
+.address .link:focus,
+.address .link:hover {
+  color: var(--accent-text-color);
 }
